@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.howard</groupId>
-    <artifactId>eureka-server</artifactId>
+    <artifactId>gank_eureka_server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-server</name>
+    <name>gank_eureka_server</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
