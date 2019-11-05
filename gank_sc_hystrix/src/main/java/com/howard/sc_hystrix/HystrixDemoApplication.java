@@ -1,4 +1,4 @@
-package com.howard.hystrix_demo;
+package com.howard.sc_hystrix;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
