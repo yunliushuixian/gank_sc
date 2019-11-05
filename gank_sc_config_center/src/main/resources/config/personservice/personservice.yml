@@ -1,0 +1,12 @@
+person.comment: "default comment"
+spring:
+  jpa:
+    datasource: "mysql"
+    hibernate:
+      ddl-auto: "update"
+    show-sql: "true"
+  datasource:
+    url: "jdbc:mysql://localhost:3306/test"
+    username: "devdb"
+    password: "Saasvideo"
+    driverClassName: "com.mysql.jdbc.Driver"

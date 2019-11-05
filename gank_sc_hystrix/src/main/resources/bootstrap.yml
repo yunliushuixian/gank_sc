@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: personservice
+    profiles:
+      active:
+        dev
+      cloud:
+        config:
+          url: localhost:8888
