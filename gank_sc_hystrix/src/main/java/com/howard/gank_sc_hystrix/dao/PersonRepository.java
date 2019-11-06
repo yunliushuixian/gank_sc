@@ -1,4 +1,4 @@
-package com.howard.sc_hystrix.dao;
+package com.howard.gank_sc_hystrix.dao;
 
 import com.howard.gank_sc_common.module.Person;
 import org.springframework.data.jpa.repository.JpaRepository;

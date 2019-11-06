@@ -1,7 +1,7 @@
-package com.howard.sc_hystrix.service;
+package com.howard.gank_sc_hystrix.service;
 
 import com.howard.gank_sc_common.module.Person;
-import com.howard.sc_hystrix.dao.PersonRepository;
+import com.howard.gank_sc_hystrix.dao.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

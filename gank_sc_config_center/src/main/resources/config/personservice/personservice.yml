@@ -1,4 +1,4 @@
-person.comment: "default comment"
+example.property: "default property"
 spring:
   jpa:
     datasource: "mysql"
@@ -6,7 +6,8 @@ spring:
       ddl-auto: "update"
     show-sql: "true"
   datasource:
-    url: "jdbc:mysql://localhost:3306/test"
+    url: "jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&serverTimezone=GMT&useSSL=false"
     username: "devdb"
     password: "Saasvideo"
-    driverClassName: "com.mysql.jdbc.Driver"
+    driverClassName: "com.mysql.cj.jdbc.Driver"
+
