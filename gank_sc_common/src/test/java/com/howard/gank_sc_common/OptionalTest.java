@@ -5,6 +5,7 @@ import com.howard.gank_sc_common.module.Person;
 import org.junit.Test;
 
 import java.util.Optional;
+import java.util.function.Predicate;
 
 
 public class OptionalTest {
@@ -58,6 +59,10 @@ public class OptionalTest {
 
         Optional<Person> person7 = optionalPerson.filter(p -> p.getId().equals("2"));
         System.out.println("person7:" + person7.orElse(new Person()));
+
+        Predicate<Person> personPredicate = p -> p.getId().equals("1");
+        Optional<Person> person8 = optionalPerson.filter(personPredicate);
+        System.out.println("person8:" + person8.orElse(new Person()));
     }
 
     //
