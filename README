@@ -4,6 +4,7 @@
 2)gank_sc_common
 3)Spring cloud client: gank_sc_config_client 端口号9501
 4)断路器项目: gank_sc_hystrix 端口号9502
+Hystrix 熔断;回退;舱壁
 
 
 3.工具方法介绍:
