@@ -26,11 +26,11 @@
 		</dependency>
 
 		<!-- 告诉Maven拉取SpringCloud Hystrix依赖-->
-		<!--<dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-hystrix</artifactId>
 			<version>${spring.cloud.version}</version>
-		</dependency>-->
+		</dependency>
 	</dependencies>
 
 	<build>

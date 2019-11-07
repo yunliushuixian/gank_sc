@@ -1,4 +1,11 @@
 1.本项目主要是SpringCloud学习笔记
 2.目前包括的项目:
-1)Spring配置中心:gank_sc_config_center 端口号9500
-2)
+1)Spring配置中心: gank_sc_config_center 端口号9500
+2)gank_sc_common
+3)Spring cloud client: gank_sc_config_client 端口号9501
+4)断路器项目: gank_sc_hystrix 端口号9502
+
+
+3.工具方法介绍:
+Optional
+Predicate
