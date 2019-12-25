@@ -1,8 +1,0 @@
-spring:
-  application:
-    name: test-client1
-  profiles:
-    active: default
-  cloud:
-    config:
-      enabled: true
