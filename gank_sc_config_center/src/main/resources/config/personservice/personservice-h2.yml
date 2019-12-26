@@ -4,7 +4,6 @@ spring:
     database-platform: "org.hibernate.dialect.H2Dialect"
     database: "H2"
     openInView: "false"
-    generate-ddl: "true"
     hibernate:
       ddl-auto: "update"
     show-sql: "true"

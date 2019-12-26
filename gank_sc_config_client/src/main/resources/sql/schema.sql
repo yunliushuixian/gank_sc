@@ -1,4 +1,4 @@
-CREATE TABLE user (
+CREATE TABLE if not exists user (
   username VARCHAR(50) NOT NULL PRIMARY KEY,
   email VARCHAR(50),
   password VARCHAR(500),
@@ -7,11 +7,11 @@ CREATE TABLE user (
   resetpasswordkey VARCHAR(50) DEFAULT NULL
 );
 
-CREATE TABLE authority (
+CREATE TABLE if not exists authority (
   name VARCHAR(50) NOT NULL PRIMARY KEY
 );
 
-CREATE TABLE user_authority (
+CREATE TABLE if not exists user_authority (
     username VARCHAR(50) NOT NULL,
     authority VARCHAR(50) NOT NULL,
     FOREIGN KEY (username) REFERENCES user (username),
@@ -19,7 +19,7 @@ CREATE TABLE user_authority (
     UNIQUE INDEX user_authority_idx_1 (username, authority)
 );
 
-CREATE TABLE oauth_access_token (
+CREATE TABLE if not exists oauth_access_token (
   token_id VARCHAR(256) DEFAULT NULL,
   token BLOB,
   authentication_id VARCHAR(256) DEFAULT NULL,
@@ -29,7 +29,7 @@ CREATE TABLE oauth_access_token (
   refresh_token VARCHAR(256) DEFAULT NULL
 );
 
-CREATE TABLE oauth_refresh_token (
+CREATE TABLE if not exists oauth_refresh_token (
   token_id VARCHAR(256) DEFAULT NULL,
   token BLOB,
   authentication BLOB
