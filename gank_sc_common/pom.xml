@@ -15,6 +15,13 @@
 	<description>Demo project for Spring Boot</description>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>23.0</version>
+		</dependency>
+
 		<!--数据库连接池 和 数据库框架-->
 		<dependency>
 			<groupId>com.h2database</groupId>
